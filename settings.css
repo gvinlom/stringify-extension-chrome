@@ -1,0 +1,20 @@
+:root {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.658);
+    max-width: fit-content;
+    margin: auto;
+}
+
+body {
+    align-items: center;
+    width: inherit;
+}
+
+.button {
+    border: none;
+    margin: 5px;
+}
+
+.button:active {
+    outline: 2px solid red;
+}

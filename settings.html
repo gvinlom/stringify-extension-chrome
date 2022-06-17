@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="settings.css">
+</head>
+
+<body>
+    <h1>Settings Page</h1>
+    <form>
+        <p>quote character</p>
+        <input type="radio" name="quote_char" value="quote">
+        <label for="quote_char">single quote</label><br>
+        <input type="radio" name="quote_char" value="doublequote">
+        <label for="quote_char">double quote</label><br>
+        <br>
+        <p>delimiter of <b>output</b></p>
+        <input type="radio" name="delimiter_out" value="linefeed">
+        <label for="delimiter">line return</label><br>
+        <input type="radio" name="delimiter_out" value="space">
+        <label for="delimiter">single space</label><br>
+        <input type="radio" name="delimiter_out" value="tab">
+        <label for="delimiter">tab</label><br>
+        <br>
+        <p>delimiter of <b>input</b></p>
+        <input type="radio" name="delimiter_in" value="linefeed">
+        <label for="delimiter">line return</label><br>
+        <input type="radio" name="delimiter_in" value="space">
+        <label for="delimiter">single space</label><br>
+        <input type="radio" name="delimiter_in" value="tab">
+        <label for="delimiter">tab</label>
+        <br>
+    </form>
+    <button id="saveSettings" class="button">save</button>
+    <script src="settings.js"></script>
+</body>
+
+</html>

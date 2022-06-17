@@ -1,0 +1,10 @@
+{
+    "name": "stringify",
+    "description": "a simple utility to manipulate quoted, delimited strings",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup":"interface.html"
+    },
+    "permissions": ["storage"]
+}
